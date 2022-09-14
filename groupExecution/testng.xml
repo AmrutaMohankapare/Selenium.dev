@@ -1,0 +1,13 @@
+
+<suite name="Suite">
+<group>
+<run>
+<exclude name="smoke">
+</exclude>
+</include name ="regression">
+</include>
+</run>
+</group>
+  <test thread-count="5" name="Test">
+  </test> 
+</suite> 
